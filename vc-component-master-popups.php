@@ -70,6 +70,7 @@ if ( ! class_exists( 'Master_Popups_VC_Element' ) ) {
 				'name'        => esc_html__( 'Master Popups', 'locale' ),
 				'description' => esc_html__( 'Embed a Master Popup button or trigger.', 'locale' ),
 				'base'        => 'mpp_popup_vc_element',
+				'icon'		  => plugin_dir_url( __FILE__ ) . "logo-masterpopups.png",
 				'params'      => array(
 					array(
 						'type' => 'dropdown',
